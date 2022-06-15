@@ -67,7 +67,6 @@ ul {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
   text-decoration: none;
   color: var(--main-color);
   font-weight: 500;
@@ -97,13 +96,28 @@ ul {
 .header-contacts-li:nth-child(1) {
   margin-right: 50px;
 }
+
 /* герой */
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .section.hero {
-  background-color: var(--footer-background);
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
