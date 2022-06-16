@@ -11,6 +11,7 @@
   --footer-contacts: rgba(255, 255, 255, 0.6);
   --hero-btn-hover: #188ce8;
   --icon-color: #afb1b8;
+  --hero-bckgrnd: #c4c4c4;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -115,7 +116,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 
-  background-color: #c4c4c4;
+  background-color: var(--hero-bckgrnd);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -282,7 +283,7 @@ ul {
 }
 .social-link:hover .team-icon,
 .social-link:focus .team-icon {
-  fill: #ffffff;
+  fill: var(--footer-color);
 }
 
 /* Постоянные клиенты */
